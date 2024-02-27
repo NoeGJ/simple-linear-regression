@@ -47,3 +47,4 @@ for i in xpredict:
 print("R^2 =", lr.getR_squared())
 print("R =", math.sqrt(lr.getR_squared()))
 
+
