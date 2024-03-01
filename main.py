@@ -15,7 +15,8 @@ class Main:
         print("R^2 =", self.lr.getRSquared())
         print("R =", self.lr.getR())
 
-main = Main()
-main.printSLR()
+if __name__ == "__main__":
+    main = Main()
+    main.printSLR()
 
 
